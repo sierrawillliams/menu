@@ -1,2 +1,4 @@
-# menu
-Template for restaurant menu
+# Menu
+Template for restaurant menu.
+To view go to menu.github.io.
+
