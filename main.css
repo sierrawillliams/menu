@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Aloevera;
+    src: url(fonts/Aloevera-OVoWO.ttf);
+}
+@font-face {
+    font-family: SparkyStones;
+    src: url(fonts/SparkyStonesRegular-BW6ld.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding: 0 1rem;
+    font-family: Aloevera;
+    border-radius: 1%;
+    background-color: rgb(246, 168, 137);
+    
+}
+
+#title {
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: -7rem;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: -7rem;
+}
+
+.food {
+    padding-top: 25px;
+    height: 4%;
+    width: auto;
+}
+
+
+.area {
+    padding: 1rem;
+    overflow: hidden;
+
+}
+
+.category {
+    background-color: white;
+    padding: .5px ;
+    height: 55px;
+    width: 165px;
+    clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
+}
+
+#line {
+    margin-right: 15rem;
+}
+
+#appies {
+    padding-left: 5px;
+}
+
+.item {
+    padding: 1px;
+}
+
+.price {
+    display: inline-block;
+}
+
+#salads {
+    padding-left: 5px;
+
+}
+
+#handhelds {
+    padding-left: 5px;
+
+}
+
+#mains {
+    padding-left: 5px;
+
+}
+
+#desserts {
+    padding-left: 5px;
+
+}
+
+.name, .description {
+    padding-left: 5px;
+}
+
+#photo {
+    max-height: 450px;
+}
