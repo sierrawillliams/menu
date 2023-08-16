@@ -24,18 +24,16 @@
 }
 
 body {
-    background-color: black;
-    padding: 0 1rem;
+    background-image: url(imgs/black-1072366_1280.jpg);
 }
 
 .container {
-    padding: 0 1rem;
-    margin: 1rem;
     font-family: Grotley;
+    margin: 5rem;
     border-radius: 1%;
+    padding: 0 5rem;
     background-color: rgb(248, 236, 216);
     filter: drop-shadow(0.35rem 0.35rem rgba(255, 255, 255, 0.5));
-    
 }
 
 #title {
@@ -58,28 +56,29 @@ body {
     width: 30%;
 }
 
-
 .area {
     padding: 1rem;
-    overflow: hidden;
+    text-align: center;
 }
 
 .category {
-    background-color: white;
-    padding: .5px ;
-    height: 65px;
-    width: 160px;
-    padding-left: 7px;
-    font-size: 17px;
-    clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
+    font-size: 106.25%;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    padding: 0 20rem;
+}
+
+.border{
+    border-bottom: 3px solid #fbc27c;
 }
 
 .shadow {
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.3));
 }
 
 #line {
-    margin-right: 15rem;
+    text-align: center;
 }
 
 
