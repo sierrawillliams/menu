@@ -2,65 +2,86 @@
     font-family: Aloevera;
     src: url(fonts/Aloevera-OVoWO.ttf);
 }
+
 @font-face {
     font-family: SparkyStones;
     src: url(fonts/SparkyStonesRegular-BW6ld.ttf);
 }
 
+@font-face {
+    font-family: Goldleaf;
+    src: url(fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+
+@font-face {
+    font-family: Mangabey;
+    src: url(fonts/MangabeyRegular-rgqVO.otf);
+}
+
+@font-face {
+    font-family: Grotley;
+    src: url(fonts/GrotleyRegular-mLEWv.otf);
+}
+
 body {
     background-color: black;
+    padding: 0 1rem;
 }
 
 .container {
     padding: 0 1rem;
-    font-family: Aloevera;
+    margin: 1rem;
+    font-family: Grotley;
     border-radius: 1%;
-    background-color: rgb(246, 168, 137);
+    background-color: rgb(248, 236, 216);
+    filter: drop-shadow(0.35rem 0.35rem rgba(255, 255, 255, 0.5));
     
 }
 
 #title {
     text-align: center;
     padding-top: 5rem;
-    margin-bottom: -7rem;
+    margin-bottom: -5rem;
+    text-shadow: 2px 2px 5px #FFFFFF;
 }
 
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25rem;
     margin-bottom: -7rem;
 }
 
 .food {
     padding-top: 25px;
-    height: 4%;
-    width: auto;
+    width: 30%;
 }
 
 
 .area {
     padding: 1rem;
     overflow: hidden;
-
 }
 
 .category {
     background-color: white;
     padding: .5px ;
-    height: 55px;
-    width: 165px;
+    height: 65px;
+    width: 160px;
+    padding-left: 7px;
+    font-size: 17px;
     clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
+}
+
+.shadow {
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 #line {
     margin-right: 15rem;
 }
 
-#appies {
-    padding-left: 5px;
-}
 
 .item {
     padding: 1px;
@@ -70,30 +91,14 @@ body {
     display: inline-block;
 }
 
-#salads {
-    padding-left: 5px;
-
-}
-
-#handhelds {
-    padding-left: 5px;
-
-}
-
-#mains {
-    padding-left: 5px;
-
-}
-
-#desserts {
-    padding-left: 5px;
-
-}
-
 .name, .description {
     padding-left: 5px;
 }
 
-#photo {
-    max-height: 450px;
+.description {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 22px;
 }
