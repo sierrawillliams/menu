@@ -24,18 +24,16 @@
 }
 
 body {
-    background-color: black;
-    padding: 0 1rem;
+    background-image: url(imgs/black-1072366_1280.jpg);
 }
 
 .container {
-    padding: 0 1rem;
-    margin: 1rem;
     font-family: Grotley;
+    margin: 5rem;
     border-radius: 1%;
+    padding: 0 5rem;
     background-color: rgb(248, 236, 216);
     filter: drop-shadow(0.35rem 0.35rem rgba(255, 255, 255, 0.5));
-    
 }
 
 #title {
@@ -58,10 +56,9 @@ body {
     width: 30%;
 }
 
-
 .area {
     padding: 1rem;
-    overflow: hidden;
+    text-align: center;
 }
 
 .category {
@@ -82,7 +79,7 @@ body {
 }
 
 #line {
-    margin-right: 15rem;
+    text-align: center;
 }
 
 
