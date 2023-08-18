@@ -65,17 +65,20 @@ body {
 }
 
 .category {
-    background-color: white;
-    padding: .5px ;
+    padding: 7px ;
     height: 65px;
     width: 160px;
     padding-left: 7px;
     font-size: 17px;
-    clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
+    width: fit-content;
+    border-bottom: 2px solid #000000;
 }
 
+#appies {
+    opacity: 100;
+}
 .shadow {
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(59, 58, 58, 0.5));
 }
 
 #line {
@@ -97,8 +100,14 @@ body {
 
 .description {
     font-size: 20px;
+    margin-top: -5px;
 }
 
 .name {
     font-size: 22px;
+}
+
+.gf {
+    max-height: 30px;
+    margin-left: 5px;
 }
