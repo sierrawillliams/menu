@@ -24,82 +24,88 @@
 }
 
 body {
-    background-image: url(imgs/black-1072366_1280.jpg);
+    background-color: white;
 }
 
 .container {
     font-family: Grotley;
     margin: 5rem;
-    border-radius: 1%;
     padding: 0 5rem;
-    background-color: rgb(248, 236, 216);
-    filter: drop-shadow(0.35rem 0.35rem rgba(255, 255, 255, 0.5));
-}
-
-#title {
-    text-align: center;
-    padding-top: 5rem;
-    margin-bottom: -5rem;
-    text-shadow: 2px 2px 5px #FFFFFF;
+    background-image: url(imgs/chalkboard.jpg);
+    background-repeat: repeat;
+    filter: drop-shadow(0.5rem 0.35rem rgba(38, 38, 38, 0.5));
 }
 
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25rem;
+    width: 20rem;
     margin-bottom: -7rem;
+    color: white;
+    filter: invert(100%);
 }
 
-.food {
-    padding-top: 25px;
-    width: 30%;
+#title {
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: -5rem;
+    text-shadow: 2px 2px 5px #242424;
+    color: white;
 }
 
 .area {
-    padding: 1rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
 .category {
     font-size: 17px;
+    margin: 0 300px;
     text-align: center;
-}
-
-.border {
-    width: 40%;
-    height: 1px;
-    margin: 0px auto;
-    border-bottom: 2px solid black;
+    color: white;
 }
 
 .shadow {
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(59, 58, 58, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(203, 202, 202, 0.5));
 }
 
+.food {
+    padding-top: 25px;
+    width: 45%;
+}
 
 .item {
     padding: 1px;
-}
-
-.price {
     display: inline-block;
 }
 
 .name, .description {
     padding-left: 5px;
+    color: white;
+}
+
+.name {
+    font-size: 20px;
+    float: left;
+}
+
+.price {
+    float: right;
+    font-size: 20px;
+    color: white;
 }
 
 .description {
     font-size: 20px;
     margin-top: -5px;
-}
-
-.name {
-    font-size: 22px;
+    float: left;
+    text-align: left;
 }
 
 .gf {
     max-height: 30px;
     margin-left: 5px;
+    filter: invert(100%);
 }
+
